@@ -1,1 +1,1 @@
-# Parallel Architechture and Distributed Programming Lab
+# Parallel Architecture and Distributed Programming Lab
