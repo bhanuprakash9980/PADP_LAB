@@ -1,3 +1,5 @@
+//Bhanu Prakash
+//1RV18CS039
 #include<omp.h>
 #include<stdio.h>
 #include<stdlib.h>

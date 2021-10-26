@@ -1,3 +1,5 @@
+//Bhanu Prakash
+//1RV18CS039
 #include <stdlib.h>
 #include <stdio.h>
 #include <omp.h>
@@ -11,7 +13,7 @@ void main(int argc,char **argv)
  double z,pi,x,y;
 double st =0.0, end=0.0;
 for (n=1000;n<=1000000;n*=10)
-{ printf("# of iterations = %d\n",n);
+{ printf("\n# of iterations = %d\n",n);
  n_threads=1;
 	while(n_threads<=8){
  count=0;
@@ -35,7 +37,7 @@ for (n=1000;n<=1000000;n*=10)
 }
 pi=(double)count/n*4;
 end = omp_get_wtime();
-printf("# of threads = %d\ttime taken = %lf\tpi value = %lf\n",n_threads,end-st,pi);
+printf("%lf\t",pi);
 n_threads=n_threads*2;
 
 }}
