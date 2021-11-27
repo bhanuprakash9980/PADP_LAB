@@ -22,7 +22,7 @@ for (n=1000;n<=1000000;n*=10)
 
  srand(SEED);
  st =0.0;
- end=0.0;
+ end=-1.0;
  st = omp_get_wtime();
  omp_set_num_threads(n_threads);
  
