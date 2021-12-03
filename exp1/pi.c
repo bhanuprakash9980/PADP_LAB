@@ -38,6 +38,7 @@ for (n=1000;n<=1000000;n*=10)
 pi=(double)count/n*4;
 end = omp_get_wtime();
 printf("%lf\t",pi);
+printf("%lf\t",end-st);
 n_threads=n_threads*2;
 
 }}
