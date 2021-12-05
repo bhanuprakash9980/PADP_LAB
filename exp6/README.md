@@ -1,5 +1,5 @@
 ## Command to execute
 ```console
-gcc -fopenmp pi.c 
+gcc -fopenmp exp6.c 
 ./a.out
 ```
