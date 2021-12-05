@@ -1,5 +1,5 @@
 ## Command to execute
-```bash
+```console
 gcc -fopenmp pi.c 
 ./a.out
 ```
