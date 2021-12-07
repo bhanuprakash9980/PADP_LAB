@@ -1,5 +1,5 @@
 ## Command to execute
 ```console
-gcc -fopenmp matrix_mul_omp.c
+gcc -fopenmp exp2.c
 ./a.out
 ```
