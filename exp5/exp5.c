@@ -24,7 +24,7 @@ int main(int argc,char **argv)
  else
  {
   MPI_Recv(&mess,BUFSIZE,MPI_CHAR,root,tag,MPI_COMM_WORLD,&status);
-  printf("%s is message process of rank %d sent to process of rank %d",mess,myRank,root);
+  printf("\n%s is message process of rank %d sent to process of rank %d\n",mess,myRank,root);
  }
  MPI_Finalize();
  return 0;

@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <mpi.h>
 #include <stdlib.h>
@@ -6,7 +5,6 @@
 int main(int argc,char **argv)
 {
 	int iter=1000000;
-  
 	int i,reduced_count,reduced_iter,count=0;
 	int rank;
 	double pi,x,y,z,t;
@@ -36,6 +34,5 @@ int main(int argc,char **argv)
 		printf("\npi: %lf time : %lf",pi,t);
 	}	
 	MPI_Finalize();
-
 	return 0;
 }
