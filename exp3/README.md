@@ -1,5 +1,5 @@
 ## Command to execute
 ```console
-g++ -fopenmp -lm sieve.cpp
+g++ -fopenmp -lm exp3.cpp
 ./a.out
 ```
