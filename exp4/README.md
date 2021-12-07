@@ -1,5 +1,5 @@
 ## Command to execute
 ```console
-gcc -fopenmp -lgd coltobw.c
-./a.out
+gcc -fopenmp -lgd exp4.c
+./a.out input.png output.png
 ```
