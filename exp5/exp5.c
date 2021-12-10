@@ -15,7 +15,7 @@ int main(int argc,char **argv)
  MPI_Comm_size(MPI_COMM_WORLD,&numProcs);
  if(myRank==1||myRank==2||myRank==3)
  {MPI_Recv(&mess,BUFSIZE,MPI_CHAR,root,tag,MPI_COMM_WORLD,&status);
-  printf("\n%s is message process of rank %d sent to process of rank %d\n",mess,myRank,root);
+  printf("\n%s is message process of rank %d received from process of rank %d\n",mess,myRank,root);
  }
  if(myRank==0)
  {for(temp=1;temp<numProcs;temp++)
