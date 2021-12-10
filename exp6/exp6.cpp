@@ -22,9 +22,10 @@ int strcmpi(string a,string b)
 int main(){
 string filename = {"words.txt"};
 string word[7] = {"lorem", "ipsum", "dolor", "sit","amet","hi","good"};
-double st=omp_get_wtime();
+
     
         for(int j=1;j<=8;j*=2){
+		double st=omp_get_wtime();
             #pragma omp parallel for shared(word) num_threads(j) 
             for(int k=0;k<7;k++){
                 int count = 0;
